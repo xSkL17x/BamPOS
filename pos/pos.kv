@@ -1,0 +1,145 @@
+#:kivy 2.0.0
+
+<ProductosRecycleView>:
+    viewclass: 'ProductoButton'
+    RecycleGridLayout:
+        id: grid_layout  # Asigna un ID para poder referenciarlo
+        cols: 3  # Inicialmente, define un número de columnas
+        default_size: dp(155), dp(225)
+        default_size_hint: None, None
+        size_hint_y: None
+        height: self.minimum_height
+        spacing: dp(16)
+        padding: dp(10)
+
+<ProductoButton>:
+    BoxLayout:
+        id: contenedor_botones
+        orientation: 'vertical'
+        canvas.before:
+            Color:  # Color de fondo negro
+                rgb: (0, 0, 0)  # Color negro
+            RoundedRectangle:
+                pos: self.pos
+                size: self.size
+                radius: [10,]  # Bordes redondeados
+        Label:
+            text: root.text
+            color: root.color
+            size_hint_y: None
+            height: dp(40)  # Mantiene una altura fija
+            text_size: self.width, None  # Permite que el texto se divida según el ancho del Label
+            halign: 'center'  # Alinea el texto al centro
+            valign: 'middle'  # Alinea el texto verticalmente
+        Image:
+            source: root.image_source if root.image_source else ''   # Ruta de la imagen
+            size_hint_y: None  # Cambia a None para poder controlar la altura
+            height: dp(170)  # Ajusta la altura de la imagen
+
+
+
+
+
+
+<FacturarRecycleView>:
+    viewclass: 'FacturaButton'
+    RecycleGridLayout:
+        id: grid_layout
+        cols: 1  # Cambiar a 1 para una sola columna
+        default_size: dp(335), dp(50)
+        default_size_hint: None, None
+        size_hint_y: None
+        height: self.minimum_height
+        size_hint_x: 1  # Asegúrate de que el layout ocupe todo el ancho disponible
+        spacing: dp(10)
+        padding: dp(10)
+
+
+
+
+
+
+
+        
+
+<FacturaButton>:
+    BoxLayout:
+        orientation: 'horizontal'
+        size_hint_y: None
+        height: dp(50)  
+        padding: dp(5)  # 
+        spacing: dp(10)  
+        size_hint_x: 1  
+        canvas.before:
+            Color:
+                rgba: 0.5, 0.5, 0.5, 1  
+            RoundedRectangle:
+                pos: self.pos
+                size: self.size
+                radius: [10,]  #
+
+        Label:
+            text: root.text
+            size_hint_x: 0.6  # Ajustar el ancho del label
+            halign: 'left'  # Alinear el texto a la izquierda
+            valign: 'middle'  # Alinear verticalmente al centro
+            text_size: self.size  # Hacer que el texto se ajuste al tamaño del label
+
+       
+        BoxLayout: 
+            orientation: 'horizontal'
+            size_hint_x: 0.3  
+            spacing: dp(5)  
+            
+            # Button:
+            #     text: 'add_circle'
+            #     size_hint_x: None
+            #     width: dp(30) 
+            #     background_color: (1, 1, 1, 0) 
+            #     color: (1, 1, 1, 1)
+            #     font_size: 16
+            #     font_name: root.font_path
+            #     on_release: root.boton_cambiar_cantidad() 
+            #     canvas.before:
+            #         Color:
+            #             rgba: 0, 0, 0.5, 1  
+            #         RoundedRectangle:
+            #             pos: self.pos
+            #             size: self.size
+            #             radius: [10, 10, 10, 10]
+
+
+            Button:
+                text: 'money'
+                size_hint_x: None
+                width: dp(30) 
+                background_color: (1, 1, 1, 0)
+                color: (1, 1, 1, 1)
+                font_size: 16
+                font_name: root.font_path
+                on_release: root.boton_cambiar_precio()
+                canvas.before:
+                    Color:
+                        rgba: 0, 0.3, 0, 1
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [10, 10, 10, 10]       
+
+            Button:
+                text: 'delete'
+                size_hint_x: None
+                width: dp(30)  # 
+                background_color: (1, 1, 1, 0)
+                color: (1, 1, 1, 1)
+                font_size: 16
+                font_name: root.font_path
+                on_release: root.boton_borrar()
+                canvas.before:
+                    Color:
+                        rgba: 1, 0, 0, 1
+
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [10, 10, 10, 10]                   

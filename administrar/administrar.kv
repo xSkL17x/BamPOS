@@ -1,0 +1,60 @@
+#:kivy 2.0.0
+
+<TablaProductos>:
+    viewclass: 'ProductoRow'
+    RecycleGridLayout:
+        cols: 1
+        default_size: None, dp(56)
+        default_size_hint: 1, None
+        size_hint_y: None
+        height: self.minimum_height
+        row_default_height: dp(56)
+        row_force_default: True
+        spacing: dp(10)  # Añadir espacio entre las filas
+
+<ProductoRow@BoxLayout>:
+    codigo: ''
+    nombre: ''
+    categoria: ''  # Campo para la categoría
+    precio_compra: ''
+    precio_venta: ''
+    stock_actual: ''
+    ruta_imagen: ''  # Campo para la ruta de la imagen
+    orientation: 'horizontal'
+    size_hint_y: None
+    height: dp(56)
+    padding: [10, 0]  # Añadimos un padding de 10px a los lados
+    spacing: dp(10)  # Añade una separación entre los elementos de la fila
+
+    Image:
+        id: product_image
+        source: root.ruta_imagen if root.ruta_imagen and root.ruta_imagen != '' else ''  # No se muestra nada si la ruta no es válida
+        size_hint_x: 0.1  # Ajusta el tamaño según tus necesidades
+        opacity: 1 if root.ruta_imagen else 0  # Ocultar imagen si no existe
+
+    Label:
+        text: root.codigo
+        size_hint_x: 0.1
+    Label:
+        text: root.nombre
+        size_hint_x: 0.2
+        text_size: self.size
+        halign: 'center'
+        valign: 'middle'
+        multiline: True
+    Label:
+        text: root.categoria  # Aquí mostramos la categoría
+        size_hint_x: 0.2
+        text_size: self.size
+        halign: 'center'
+        valign: 'middle'
+        multiline: True
+    Label:
+        text: root.precio_compra
+        size_hint_x: 0.15
+    Label:
+        text: root.precio_venta
+        size_hint_x: 0.15
+    Label:
+        text: root.stock_actual
+        size_hint_x: 0.2

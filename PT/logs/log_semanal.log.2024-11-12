@@ -1,0 +1,104 @@
+2024-11-16 11:54:22,761 - INFO - Iniciando la aplicación POS.
+2024-11-16 11:54:22,771 - INFO - GL: NPOT texture support is available
+2024-11-16 11:54:22,780 - INFO - Base: Start application main loop
+2024-11-16 11:54:22,795 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-11-16 11:54:23,688 - INFO - Configuración 'version pos' insertada en la tabla 'configuraciones'
+2024-11-16 11:54:23,688 - INFO - Configuración 'remember user' insertada en la tabla 'configuraciones'
+2024-11-16 11:54:23,688 - INFO - Configuración 'autologin' insertada en la tabla 'configuraciones'
+2024-11-16 11:54:23,688 - INFO - Configuración 'config negocio' insertada en la tabla 'configuraciones'
+2024-11-16 11:54:23,689 - INFO - Configuración 'impresoras' insertada en la tabla 'configuraciones'
+2024-11-16 11:54:23,867 - INFO - Tablas 'configuraciones' y 'Usuarios' creadas exitosamente.
+2024-11-16 11:54:43,752 - INFO - Iniciando la aplicación POS.
+2024-11-16 11:54:43,762 - INFO - GL: NPOT texture support is available
+2024-11-16 11:54:43,769 - INFO - Base: Start application main loop
+2024-11-16 11:54:43,817 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-11-16 11:55:33,460 - INFO - Iniciando la aplicación POS.
+2024-11-16 11:55:33,469 - INFO - GL: NPOT texture support is available
+2024-11-16 11:55:33,476 - INFO - Base: Start application main loop
+2024-11-16 11:55:33,515 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-11-16 12:00:05,170 - INFO - Iniciando la aplicación POS.
+2024-11-16 12:00:05,179 - INFO - GL: NPOT texture support is available
+2024-11-16 12:00:05,187 - INFO - Base: Start application main loop
+2024-11-16 12:00:05,236 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-11-16 12:08:47,153 - INFO - Iniciando la aplicación POS.
+2024-11-16 12:08:47,162 - INFO - GL: NPOT texture support is available
+2024-11-16 12:08:47,169 - INFO - Base: Start application main loop
+2024-11-16 12:08:47,226 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-11-16 12:09:37,755 - INFO - Iniciando la aplicación POS.
+2024-11-16 12:09:37,763 - INFO - GL: NPOT texture support is available
+2024-11-16 12:09:37,770 - INFO - Base: Start application main loop
+2024-11-16 12:09:37,845 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-11-16 12:10:11,413 - INFO - Iniciando la aplicación POS.
+2024-11-16 12:10:11,424 - INFO - GL: NPOT texture support is available
+2024-11-16 12:10:11,431 - INFO - Base: Start application main loop
+2024-11-16 12:10:11,493 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-11-16 12:10:44,612 - INFO - Base: Leaving application in progress...
+2024-11-16 12:10:44,614 - INFO - cerrando App
+2024-11-16 12:12:15,471 - INFO - Iniciando la aplicación POS.
+2024-11-16 12:12:15,482 - INFO - GL: NPOT texture support is available
+2024-11-16 12:12:15,490 - INFO - Base: Start application main loop
+2024-11-16 12:12:15,539 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-11-16 12:29:55,656 - INFO - Iniciando la aplicación POS.
+2024-11-16 12:29:55,678 - INFO - GL: NPOT texture support is available
+2024-11-16 12:29:55,687 - INFO - Base: Start application main loop
+2024-11-16 12:29:55,719 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-11-16 12:29:59,656 - ERROR - Image: Not found <D:\PROGRAMACION\POS V2\assets\logo_empresa.png>
+2024-11-16 12:30:02,918 - INFO - Base: Leaving application in progress...
+2024-11-16 12:30:02,919 - INFO - cerrando App
+2024-11-16 12:52:30,070 - INFO - Iniciando la aplicación POS.
+2024-11-16 12:52:30,080 - INFO - GL: NPOT texture support is available
+2024-11-16 12:52:30,088 - INFO - Base: Start application main loop
+2024-11-16 12:52:30,115 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-11-16 12:52:30,981 - INFO - Configuración 'version pos' insertada en la tabla 'configuraciones'
+2024-11-16 12:52:30,982 - INFO - Configuración 'remember user' insertada en la tabla 'configuraciones'
+2024-11-16 12:52:30,982 - INFO - Configuración 'autologin' insertada en la tabla 'configuraciones'
+2024-11-16 12:52:30,984 - INFO - Configuración 'config negocio' insertada en la tabla 'configuraciones'
+2024-11-16 12:52:30,984 - INFO - Configuración 'impresoras' insertada en la tabla 'configuraciones'
+2024-11-16 12:52:31,275 - INFO - Tablas 'configuraciones' y 'Usuarios' creadas exitosamente.
+2024-11-16 12:52:47,919 - ERROR - Image: Not found <D:\PROGRAMACION\POS V2\assets\logo_empresa.png>
+2024-11-16 12:52:53,835 - INFO - Base: Leaving application in progress...
+2024-11-16 12:52:53,836 - INFO - cerrando App
+2024-11-16 12:52:57,839 - INFO - Iniciando la aplicación POS.
+2024-11-16 12:52:57,849 - INFO - GL: NPOT texture support is available
+2024-11-16 12:52:57,856 - INFO - Base: Start application main loop
+2024-11-16 12:52:57,941 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-11-16 12:53:02,652 - INFO - Base: Leaving application in progress...
+2024-11-16 12:53:02,652 - WARNING - stderr: Traceback (most recent call last):
+2024-11-16 12:53:02,652 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\main.py", line 52, in <module>
+2024-11-16 12:53:02,652 - WARNING - stderr:     MainApp().run()
+2024-11-16 12:53:02,652 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\app.py", line 956, in run
+2024-11-16 12:53:02,653 - WARNING - stderr:     runTouchApp()
+2024-11-16 12:53:02,653 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2024-11-16 12:53:02,653 - WARNING - stderr:     EventLoop.mainloop()
+2024-11-16 12:53:02,654 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2024-11-16 12:53:02,654 - WARNING - stderr:     self.idle()
+2024-11-16 12:53:02,654 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 383, in idle
+2024-11-16 12:53:02,654 - WARNING - stderr:     self.dispatch_input()
+2024-11-16 12:53:02,654 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+2024-11-16 12:53:02,655 - WARNING - stderr:     post_dispatch_input(*pop(0))
+2024-11-16 12:53:02,655 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+2024-11-16 12:53:02,655 - WARNING - stderr:     wid.dispatch('on_touch_up', me)
+2024-11-16 12:53:02,655 - WARNING - stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2024-11-16 12:53:02,656 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+2024-11-16 12:53:02,656 - WARNING - stderr:     self.dispatch('on_release')
+2024-11-16 12:53:02,656 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-11-16 12:53:02,656 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-11-16 12:53:02,657 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-11-16 12:53:02,657 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos.py", line 105, in pagar_factura
+2024-11-16 12:53:02,657 - WARNING - stderr:     self.facturar_recycle_view.mostrar_popup_factura()
+2024-11-16 12:53:02,657 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos.py", line 466, in mostrar_popup_factura
+2024-11-16 12:53:02,658 - WARNING - stderr:     factura_popup = FacturaPopup(self.data, self)  # Crear una instancia del Popup con los datos actuales
+2024-11-16 12:53:02,658 - WARNING - stderr:                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-16 12:53:02,658 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos_Facturar.py", line 40, in __init__
+2024-11-16 12:53:02,658 - WARNING - stderr:     self.no_facturas = self.obtener_ultimo_no_factura()      
+2024-11-16 12:53:02,658 - WARNING - stderr:                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-16 12:53:02,658 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos_Facturar.py", line 371, in obtener_ultimo_no_factura
+2024-11-16 12:53:02,658 - WARNING - stderr:     ultimo_no_factura = cursor.execute("SELECT no_factura FROM facturas WHERE id = 1").fetchone()[0] + 1
+2024-11-16 12:53:02,659 - WARNING - stderr:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-16 12:53:02,659 - WARNING - stderr: sqlite3.OperationalError: no such column: id
+2024-11-16 14:06:49,566 - INFO - Iniciando la aplicación POS.
+2024-11-16 14:06:49,586 - INFO - GL: NPOT texture support is available
+2024-11-16 14:06:49,601 - INFO - Base: Start application main loop
+2024-11-16 14:06:49,632 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-11-16 14:07:00,917 - INFO - Base: Leaving application in progress...
+2024-11-16 14:07:00,918 - INFO - cerrando App

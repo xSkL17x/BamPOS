@@ -1,0 +1,883 @@
+2024-12-10 11:37:18,977 - INFO - Iniciando la aplicación POS.
+2024-12-10 11:37:19,038 - INFO - GL: NPOT texture support is available
+2024-12-10 11:37:19,069 - INFO - Base: Start application main loop
+2024-12-10 11:37:19,141 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 11:47:03,277 - INFO - Base: Leaving application in progress...
+2024-12-10 11:47:03,278 - INFO - cerrando App
+2024-12-10 11:47:07,871 - INFO - Iniciando la aplicación POS.
+2024-12-10 11:47:07,882 - INFO - GL: NPOT texture support is available
+2024-12-10 11:47:07,891 - INFO - Base: Start application main loop
+2024-12-10 11:47:07,941 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 11:47:50,888 - INFO - Iniciando la aplicación POS.
+2024-12-10 11:47:50,899 - INFO - GL: NPOT texture support is available
+2024-12-10 11:47:50,910 - INFO - Base: Start application main loop
+2024-12-10 11:47:50,957 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 11:51:30,493 - INFO - Iniciando la aplicación POS.
+2024-12-10 11:51:30,507 - INFO - GL: NPOT texture support is available
+2024-12-10 11:51:30,515 - INFO - Base: Start application main loop
+2024-12-10 11:51:30,550 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 11:51:34,052 - INFO - Base: Leaving application in progress...
+2024-12-10 11:51:34,054 - WARNING - stderr: Traceback (most recent call last):
+2024-12-10 11:51:34,054 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\main.py", line 52, in <module>
+2024-12-10 11:51:34,055 - WARNING - stderr:     MainApp().run()
+2024-12-10 11:51:34,056 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\app.py", line 956, in run
+2024-12-10 11:51:34,057 - WARNING - stderr:     runTouchApp()
+2024-12-10 11:51:34,057 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2024-12-10 11:51:34,058 - WARNING - stderr:     EventLoop.mainloop()
+2024-12-10 11:51:34,058 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 341, in mainloop
+2024-12-10 11:51:34,059 - WARNING - stderr:     self.window.mainloop()
+2024-12-10 11:51:34,059 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\core\window\window_sdl2.py", line 786, in mainloop
+2024-12-10 11:51:34,070 - WARNING - stderr:     self.dispatch('on_textinput', text)
+2024-12-10 11:51:34,070 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 11:51:34,071 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 11:51:34,071 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 11:51:34,071 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\core\window\__init__.py", line 155, in _on_window_textinput
+2024-12-10 11:51:34,073 - WARNING - stderr:     return self.dispatch('on_textinput', text)
+2024-12-10 11:51:34,073 - WARNING - stderr:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 11:51:34,074 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 11:51:34,074 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 11:51:34,074 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 11:51:34,074 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 3045, in keyboard_on_textinput
+2024-12-10 11:51:34,076 - WARNING - stderr:     self.insert_text(text, False)
+2024-12-10 11:51:34,076 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 792, in insert_text
+2024-12-10 11:51:34,084 - WARNING - stderr:     self._set_line_text(row, new_text)
+2024-12-10 11:51:34,084 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 2156, in _set_line_text
+2024-12-10 11:51:34,085 - WARNING - stderr:     self._lines[line_num] = text
+2024-12-10 11:51:34,085 - WARNING - stderr:     ~~~~~~~~~~~^^^^^^^^^^
+2024-12-10 11:51:34,086 - WARNING - stderr:   File "kivy\\properties.pyx", line 820, in kivy.properties.ObservableList.__setitem__
+2024-12-10 11:51:34,086 - WARNING - stderr:   File "kivy\\properties.pyx", line 806, in kivy.properties.observable_list_dispatch
+2024-12-10 11:51:34,087 - WARNING - stderr:   File "kivy\\properties.pyx", line 625, in kivy.properties.Property.dispatch
+2024-12-10 11:51:34,087 - WARNING - stderr:   File "kivy\\properties.pyx", line 606, in kivy.properties.Property._dispatch
+2024-12-10 11:51:34,087 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 11:51:34,087 - WARNING - stderr:   File "kivy\\_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+2024-12-10 11:51:34,088 - WARNING - stderr:   File "kivy\\properties.pyx", line 1639, in kivy.properties.AliasProperty.trigger_change
+2024-12-10 11:51:34,088 - WARNING - stderr:   File "kivy\\properties.pyx", line 1646, in kivy.properties.AliasProperty.trigger_change
+2024-12-10 11:51:34,089 - WARNING - stderr:   File "kivy\\properties.pyx", line 1672, in kivy.properties.AliasProperty._dispatch
+2024-12-10 11:51:34,089 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 11:51:34,090 - WARNING - stderr:   File "kivy\\_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+2024-12-10 11:51:34,090 - WARNING - stderr: TypeError: infoProductosPopup.filtrar_productos() takes 2 positional arguments but 3 were given
+2024-12-10 11:52:54,927 - INFO - Iniciando la aplicación POS.
+2024-12-10 11:52:54,948 - INFO - GL: NPOT texture support is available
+2024-12-10 11:52:54,965 - INFO - Base: Start application main loop
+2024-12-10 11:52:55,003 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 11:52:59,049 - INFO - Base: Leaving application in progress...
+2024-12-10 11:52:59,050 - WARNING - stderr: Traceback (most recent call last):
+2024-12-10 11:52:59,050 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\main.py", line 52, in <module>
+2024-12-10 11:52:59,050 - WARNING - stderr:     MainApp().run()
+2024-12-10 11:52:59,050 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\app.py", line 956, in run
+2024-12-10 11:52:59,061 - WARNING - stderr:     runTouchApp()
+2024-12-10 11:52:59,061 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2024-12-10 11:52:59,070 - WARNING - stderr:     EventLoop.mainloop()
+2024-12-10 11:52:59,070 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 341, in mainloop
+2024-12-10 11:52:59,070 - WARNING - stderr:     self.window.mainloop()
+2024-12-10 11:52:59,070 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\core\window\window_sdl2.py", line 786, in mainloop
+2024-12-10 11:52:59,079 - WARNING - stderr:     self.dispatch('on_textinput', text)
+2024-12-10 11:52:59,079 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 11:52:59,080 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 11:52:59,080 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 11:52:59,080 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\core\window\__init__.py", line 155, in _on_window_textinput
+2024-12-10 11:52:59,087 - WARNING - stderr:     return self.dispatch('on_textinput', text)
+2024-12-10 11:52:59,087 - WARNING - stderr:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 11:52:59,087 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 11:52:59,087 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 11:52:59,087 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 11:52:59,088 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 3045, in keyboard_on_textinput
+2024-12-10 11:52:59,100 - WARNING - stderr:     self.insert_text(text, False)
+2024-12-10 11:52:59,100 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 792, in insert_text
+2024-12-10 11:52:59,101 - WARNING - stderr:     self._set_line_text(row, new_text)
+2024-12-10 11:52:59,101 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 2156, in _set_line_text
+2024-12-10 11:52:59,101 - WARNING - stderr:     self._lines[line_num] = text
+2024-12-10 11:52:59,102 - WARNING - stderr:     ~~~~~~~~~~~^^^^^^^^^^
+2024-12-10 11:52:59,102 - WARNING - stderr:   File "kivy\\properties.pyx", line 820, in kivy.properties.ObservableList.__setitem__
+2024-12-10 11:52:59,102 - WARNING - stderr:   File "kivy\\properties.pyx", line 806, in kivy.properties.observable_list_dispatch
+2024-12-10 11:52:59,102 - WARNING - stderr:   File "kivy\\properties.pyx", line 625, in kivy.properties.Property.dispatch
+2024-12-10 11:52:59,103 - WARNING - stderr:   File "kivy\\properties.pyx", line 606, in kivy.properties.Property._dispatch
+2024-12-10 11:52:59,103 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 11:52:59,103 - WARNING - stderr:   File "kivy\\_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+2024-12-10 11:52:59,104 - WARNING - stderr:   File "kivy\\properties.pyx", line 1639, in kivy.properties.AliasProperty.trigger_change
+2024-12-10 11:52:59,104 - WARNING - stderr:   File "kivy\\properties.pyx", line 1646, in kivy.properties.AliasProperty.trigger_change
+2024-12-10 11:52:59,104 - WARNING - stderr:   File "kivy\\properties.pyx", line 1672, in kivy.properties.AliasProperty._dispatch
+2024-12-10 11:52:59,104 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 11:52:59,105 - WARNING - stderr:   File "kivy\\_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+2024-12-10 11:52:59,105 - WARNING - stderr: TypeError: infoProductosPopup.filtrar_productos() takes 2 positional arguments but 3 were given
+2024-12-10 11:55:10,235 - INFO - Iniciando la aplicación POS.
+2024-12-10 11:55:10,246 - INFO - GL: NPOT texture support is available
+2024-12-10 11:55:10,254 - INFO - Base: Start application main loop
+2024-12-10 11:55:10,324 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 11:55:15,227 - INFO - Base: Leaving application in progress...
+2024-12-10 11:55:15,227 - WARNING - stderr: Traceback (most recent call last):
+2024-12-10 11:55:15,228 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\main.py", line 52, in <module>
+2024-12-10 11:55:15,228 - WARNING - stderr:     MainApp().run()
+2024-12-10 11:55:15,228 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\app.py", line 956, in run
+2024-12-10 11:55:15,229 - WARNING - stderr:     runTouchApp()
+2024-12-10 11:55:15,229 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2024-12-10 11:55:15,229 - WARNING - stderr:     EventLoop.mainloop()
+2024-12-10 11:55:15,229 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 341, in mainloop
+2024-12-10 11:55:15,229 - WARNING - stderr:     self.window.mainloop()
+2024-12-10 11:55:15,229 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\core\window\window_sdl2.py", line 786, in mainloop
+2024-12-10 11:55:15,230 - WARNING - stderr:     self.dispatch('on_textinput', text)
+2024-12-10 11:55:15,230 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 11:55:15,231 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 11:55:15,232 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 11:55:15,232 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\core\window\__init__.py", line 155, in _on_window_textinput
+2024-12-10 11:55:15,233 - WARNING - stderr:     return self.dispatch('on_textinput', text)
+2024-12-10 11:55:15,233 - WARNING - stderr:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 11:55:15,233 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 11:55:15,233 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 11:55:15,233 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 11:55:15,234 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 3045, in keyboard_on_textinput
+2024-12-10 11:55:15,235 - WARNING - stderr:     self.insert_text(text, False)
+2024-12-10 11:55:15,235 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 792, in insert_text
+2024-12-10 11:55:15,235 - WARNING - stderr:     self._set_line_text(row, new_text)
+2024-12-10 11:55:15,235 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 2156, in _set_line_text
+2024-12-10 11:55:15,236 - WARNING - stderr:     self._lines[line_num] = text
+2024-12-10 11:55:15,236 - WARNING - stderr:     ~~~~~~~~~~~^^^^^^^^^^
+2024-12-10 11:55:15,236 - WARNING - stderr:   File "kivy\\properties.pyx", line 820, in kivy.properties.ObservableList.__setitem__
+2024-12-10 11:55:15,236 - WARNING - stderr:   File "kivy\\properties.pyx", line 806, in kivy.properties.observable_list_dispatch
+2024-12-10 11:55:15,237 - WARNING - stderr:   File "kivy\\properties.pyx", line 625, in kivy.properties.Property.dispatch
+2024-12-10 11:55:15,238 - WARNING - stderr:   File "kivy\\properties.pyx", line 606, in kivy.properties.Property._dispatch
+2024-12-10 11:55:15,238 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 11:55:15,238 - WARNING - stderr:   File "kivy\\_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+2024-12-10 11:55:15,239 - WARNING - stderr:   File "kivy\\properties.pyx", line 1639, in kivy.properties.AliasProperty.trigger_change
+2024-12-10 11:55:15,239 - WARNING - stderr:   File "kivy\\properties.pyx", line 1646, in kivy.properties.AliasProperty.trigger_change
+2024-12-10 11:55:15,240 - WARNING - stderr:   File "kivy\\properties.pyx", line 1672, in kivy.properties.AliasProperty._dispatch
+2024-12-10 11:55:15,240 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 11:55:15,240 - WARNING - stderr:   File "kivy\\_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+2024-12-10 11:55:15,241 - WARNING - stderr: TypeError: infoProductosPopup.filtrar_productos() takes 2 positional arguments but 3 were given
+2024-12-10 11:55:41,127 - INFO - Iniciando la aplicación POS.
+2024-12-10 11:55:41,137 - INFO - GL: NPOT texture support is available
+2024-12-10 11:55:41,146 - INFO - Base: Start application main loop
+2024-12-10 11:55:41,193 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 11:56:04,364 - INFO - Base: Leaving application in progress...
+2024-12-10 11:56:04,365 - INFO - cerrando App
+2024-12-10 11:58:19,781 - INFO - Iniciando la aplicación POS.
+2024-12-10 11:58:19,792 - INFO - GL: NPOT texture support is available
+2024-12-10 11:58:19,800 - INFO - Base: Start application main loop
+2024-12-10 11:58:19,849 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 11:58:27,714 - INFO - Base: Leaving application in progress...
+2024-12-10 11:58:27,714 - INFO - cerrando App
+2024-12-10 12:00:08,409 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:00:08,423 - INFO - GL: NPOT texture support is available
+2024-12-10 12:00:08,431 - INFO - Base: Start application main loop
+2024-12-10 12:00:08,499 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:00:24,546 - INFO - Base: Leaving application in progress...
+2024-12-10 12:00:24,547 - INFO - cerrando App
+2024-12-10 12:02:15,080 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:02:15,092 - INFO - GL: NPOT texture support is available
+2024-12-10 12:02:15,100 - INFO - Base: Start application main loop
+2024-12-10 12:02:15,153 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:02:26,607 - INFO - Base: Leaving application in progress...
+2024-12-10 12:02:26,608 - INFO - cerrando App
+2024-12-10 12:05:04,952 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:05:04,965 - INFO - GL: NPOT texture support is available
+2024-12-10 12:05:04,974 - INFO - Base: Start application main loop
+2024-12-10 12:05:05,023 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:05:30,395 - INFO - Base: Leaving application in progress...
+2024-12-10 12:05:30,455 - INFO - cerrando App
+2024-12-10 12:05:34,107 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:05:34,116 - INFO - GL: NPOT texture support is available
+2024-12-10 12:05:34,124 - INFO - Base: Start application main loop
+2024-12-10 12:05:34,209 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:05:40,039 - INFO - Base: Leaving application in progress...
+2024-12-10 12:05:40,040 - INFO - cerrando App
+2024-12-10 12:06:54,908 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:06:54,920 - INFO - GL: NPOT texture support is available
+2024-12-10 12:06:54,928 - INFO - Base: Start application main loop
+2024-12-10 12:06:54,988 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:07:03,201 - INFO - Base: Leaving application in progress...
+2024-12-10 12:07:03,202 - INFO - cerrando App
+2024-12-10 12:07:10,255 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:07:10,264 - INFO - GL: NPOT texture support is available
+2024-12-10 12:07:10,272 - INFO - Base: Start application main loop
+2024-12-10 12:07:10,331 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:08:29,853 - INFO - Base: Leaving application in progress...
+2024-12-10 12:08:29,854 - INFO - cerrando App
+2024-12-10 12:11:03,473 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:11:03,525 - INFO - GL: NPOT texture support is available
+2024-12-10 12:11:03,537 - INFO - Base: Start application main loop
+2024-12-10 12:11:03,600 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:11:16,125 - INFO - Base: Leaving application in progress...
+2024-12-10 12:11:16,127 - INFO - cerrando App
+2024-12-10 12:12:10,124 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:12:10,135 - INFO - GL: NPOT texture support is available
+2024-12-10 12:12:10,142 - INFO - Base: Start application main loop
+2024-12-10 12:12:10,185 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:12:33,289 - INFO - Base: Leaving application in progress...
+2024-12-10 12:12:33,290 - INFO - cerrando App
+2024-12-10 12:14:52,158 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:14:52,168 - INFO - GL: NPOT texture support is available
+2024-12-10 12:14:52,175 - INFO - Base: Start application main loop
+2024-12-10 12:14:52,249 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:15:04,615 - INFO - Base: Leaving application in progress...
+2024-12-10 12:15:04,615 - INFO - cerrando App
+2024-12-10 12:19:56,776 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:19:56,785 - INFO - GL: NPOT texture support is available
+2024-12-10 12:19:56,792 - INFO - Base: Start application main loop
+2024-12-10 12:19:56,840 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:20:19,617 - INFO - Base: Leaving application in progress...
+2024-12-10 12:20:19,618 - INFO - cerrando App
+2024-12-10 12:21:40,845 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:21:40,855 - INFO - GL: NPOT texture support is available
+2024-12-10 12:21:40,862 - INFO - Base: Start application main loop
+2024-12-10 12:21:40,958 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:23:15,260 - INFO - Base: Leaving application in progress...
+2024-12-10 12:23:15,261 - INFO - cerrando App
+2024-12-10 12:24:47,276 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:24:47,289 - INFO - GL: NPOT texture support is available
+2024-12-10 12:24:47,298 - INFO - Base: Start application main loop
+2024-12-10 12:24:47,383 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:25:12,579 - INFO - Base: Leaving application in progress...
+2024-12-10 12:25:12,580 - INFO - cerrando App
+2024-12-10 12:25:52,156 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:25:52,165 - INFO - GL: NPOT texture support is available
+2024-12-10 12:25:52,174 - INFO - Base: Start application main loop
+2024-12-10 12:25:52,227 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:26:02,573 - INFO - Base: Leaving application in progress...
+2024-12-10 12:26:02,574 - INFO - cerrando App
+2024-12-10 12:27:06,264 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:27:06,275 - INFO - GL: NPOT texture support is available
+2024-12-10 12:27:06,282 - INFO - Base: Start application main loop
+2024-12-10 12:27:06,347 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:27:16,787 - INFO - Base: Leaving application in progress...
+2024-12-10 12:27:16,788 - INFO - cerrando App
+2024-12-10 12:28:08,913 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:28:08,924 - INFO - GL: NPOT texture support is available
+2024-12-10 12:28:08,931 - INFO - Base: Start application main loop
+2024-12-10 12:28:09,017 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:28:16,039 - ERROR - Image: Not found <D:\PROGRAMACION\POS V2\assets\logo_empresa.png>
+2024-12-10 12:29:01,937 - INFO - Base: Leaving application in progress...
+2024-12-10 12:29:01,938 - WARNING - stderr: Traceback (most recent call last):
+2024-12-10 12:29:01,938 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\main.py", line 52, in <module>
+2024-12-10 12:29:01,939 - WARNING - stderr:     MainApp().run()
+2024-12-10 12:29:01,940 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\app.py", line 956, in run
+2024-12-10 12:29:01,942 - WARNING - stderr:     runTouchApp()
+2024-12-10 12:29:01,943 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2024-12-10 12:29:01,944 - WARNING - stderr:     EventLoop.mainloop()
+2024-12-10 12:29:01,944 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 341, in mainloop
+2024-12-10 12:29:01,944 - WARNING - stderr:     self.window.mainloop()
+2024-12-10 12:29:01,944 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\core\window\window_sdl2.py", line 786, in mainloop
+2024-12-10 12:29:01,945 - WARNING - stderr:     self.dispatch('on_textinput', text)
+2024-12-10 12:29:01,945 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:29:01,946 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:29:01,946 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 12:29:01,947 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\core\window\__init__.py", line 155, in _on_window_textinput
+2024-12-10 12:29:01,948 - WARNING - stderr:     return self.dispatch('on_textinput', text)
+2024-12-10 12:29:01,950 - WARNING - stderr:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:29:01,950 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:29:01,950 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:29:01,950 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 12:29:01,950 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 3045, in keyboard_on_textinput
+2024-12-10 12:29:01,952 - WARNING - stderr:     self.insert_text(text, False)
+2024-12-10 12:29:01,953 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 792, in insert_text
+2024-12-10 12:29:01,953 - WARNING - stderr:     self._set_line_text(row, new_text)
+2024-12-10 12:29:01,953 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 2156, in _set_line_text
+2024-12-10 12:29:01,954 - WARNING - stderr:     self._lines[line_num] = text
+2024-12-10 12:29:01,954 - WARNING - stderr:     ~~~~~~~~~~~^^^^^^^^^^
+2024-12-10 12:29:01,955 - WARNING - stderr:   File "kivy\\properties.pyx", line 820, in kivy.properties.ObservableList.__setitem__
+2024-12-10 12:29:01,955 - WARNING - stderr:   File "kivy\\properties.pyx", line 806, in kivy.properties.observable_list_dispatch
+2024-12-10 12:29:01,955 - WARNING - stderr:   File "kivy\\properties.pyx", line 625, in kivy.properties.Property.dispatch
+2024-12-10 12:29:01,956 - WARNING - stderr:   File "kivy\\properties.pyx", line 606, in kivy.properties.Property._dispatch
+2024-12-10 12:29:01,956 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:29:01,957 - WARNING - stderr:   File "kivy\\_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+2024-12-10 12:29:01,957 - WARNING - stderr:   File "kivy\\properties.pyx", line 1639, in kivy.properties.AliasProperty.trigger_change
+2024-12-10 12:29:01,957 - WARNING - stderr:   File "kivy\\properties.pyx", line 1646, in kivy.properties.AliasProperty.trigger_change
+2024-12-10 12:29:01,957 - WARNING - stderr:   File "kivy\\properties.pyx", line 1672, in kivy.properties.AliasProperty._dispatch
+2024-12-10 12:29:01,957 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:29:01,958 - WARNING - stderr:   File "kivy\\_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+2024-12-10 12:29:01,958 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos_productos.py", line 201, in filtrar_productos
+2024-12-10 12:29:01,958 - WARNING - stderr:     ruta_imagen = producto[3] if os.path.exists(producto[3]) else self.ImagenPRED
+2024-12-10 12:29:01,958 - WARNING - stderr:                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:29:01,959 - WARNING - stderr: TypeError: _path_exists: path should be string, bytes, os.PathLike or integer, not NoneType
+2024-12-10 12:30:23,888 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:30:23,899 - INFO - GL: NPOT texture support is available
+2024-12-10 12:30:23,907 - INFO - Base: Start application main loop
+2024-12-10 12:30:23,983 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:30:31,205 - INFO - Base: Leaving application in progress...
+2024-12-10 12:30:31,206 - WARNING - stderr: Traceback (most recent call last):
+2024-12-10 12:30:31,206 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\main.py", line 52, in <module>
+2024-12-10 12:30:31,206 - WARNING - stderr:     MainApp().run()
+2024-12-10 12:30:31,207 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\app.py", line 956, in run
+2024-12-10 12:30:31,207 - WARNING - stderr:     runTouchApp()
+2024-12-10 12:30:31,207 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2024-12-10 12:30:31,208 - WARNING - stderr:     EventLoop.mainloop()
+2024-12-10 12:30:31,208 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 341, in mainloop
+2024-12-10 12:30:31,208 - WARNING - stderr:     self.window.mainloop()
+2024-12-10 12:30:31,208 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\core\window\window_sdl2.py", line 776, in mainloop
+2024-12-10 12:30:31,209 - WARNING - stderr:     if self.dispatch('on_key_down', key,
+2024-12-10 12:30:31,209 - WARNING - stderr:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:30:31,209 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:30:31,210 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:30:31,211 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 12:30:31,211 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\core\window\__init__.py", line 163, in _on_window_key_down
+2024-12-10 12:30:31,211 - WARNING - stderr:     return self.dispatch('on_key_down', keycode, text, modifiers)
+2024-12-10 12:30:31,211 - WARNING - stderr:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:30:31,211 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:30:31,212 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:30:31,212 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 12:30:31,212 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 2984, in keyboard_on_key_down
+2024-12-10 12:30:31,213 - WARNING - stderr:     self._key_down(key)
+2024-12-10 12:30:31,213 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 2849, in _key_down
+2024-12-10 12:30:31,214 - WARNING - stderr:     self.do_backspace()
+2024-12-10 12:30:31,214 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 980, in do_backspace
+2024-12-10 12:30:31,215 - WARNING - stderr:     self._set_line_text(row, new_text)
+2024-12-10 12:30:31,215 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 2156, in _set_line_text
+2024-12-10 12:30:31,215 - WARNING - stderr:     self._lines[line_num] = text
+2024-12-10 12:30:31,216 - WARNING - stderr:     ~~~~~~~~~~~^^^^^^^^^^
+2024-12-10 12:30:31,216 - WARNING - stderr:   File "kivy\\properties.pyx", line 820, in kivy.properties.ObservableList.__setitem__
+2024-12-10 12:30:31,216 - WARNING - stderr:   File "kivy\\properties.pyx", line 806, in kivy.properties.observable_list_dispatch
+2024-12-10 12:30:31,216 - WARNING - stderr:   File "kivy\\properties.pyx", line 625, in kivy.properties.Property.dispatch
+2024-12-10 12:30:31,217 - WARNING - stderr:   File "kivy\\properties.pyx", line 606, in kivy.properties.Property._dispatch
+2024-12-10 12:30:31,217 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:30:31,218 - WARNING - stderr:   File "kivy\\_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+2024-12-10 12:30:31,218 - WARNING - stderr:   File "kivy\\properties.pyx", line 1639, in kivy.properties.AliasProperty.trigger_change
+2024-12-10 12:30:31,218 - WARNING - stderr:   File "kivy\\properties.pyx", line 1646, in kivy.properties.AliasProperty.trigger_change
+2024-12-10 12:30:31,218 - WARNING - stderr:   File "kivy\\properties.pyx", line 1672, in kivy.properties.AliasProperty._dispatch
+2024-12-10 12:30:31,218 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:30:31,218 - WARNING - stderr:   File "kivy\\_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+2024-12-10 12:30:31,219 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos_productos.py", line 201, in filtrar_productos
+2024-12-10 12:30:31,219 - WARNING - stderr:     ruta_imagen = producto[3] if os.path.exists(producto[3]) else self.ImagenPRED
+2024-12-10 12:30:31,220 - WARNING - stderr:                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:30:31,220 - WARNING - stderr: TypeError: _path_exists: path should be string, bytes, os.PathLike or integer, not NoneType
+2024-12-10 12:31:26,588 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:31:26,598 - INFO - GL: NPOT texture support is available
+2024-12-10 12:31:26,605 - INFO - Base: Start application main loop
+2024-12-10 12:31:26,670 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:31:33,475 - INFO - Base: Leaving application in progress...
+2024-12-10 12:31:33,475 - WARNING - stderr: Traceback (most recent call last):
+2024-12-10 12:31:33,475 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\main.py", line 52, in <module>
+2024-12-10 12:31:33,476 - WARNING - stderr:     MainApp().run()
+2024-12-10 12:31:33,476 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\app.py", line 956, in run
+2024-12-10 12:31:33,477 - WARNING - stderr:     runTouchApp()
+2024-12-10 12:31:33,477 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2024-12-10 12:31:33,478 - WARNING - stderr:     EventLoop.mainloop()
+2024-12-10 12:31:33,478 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 341, in mainloop
+2024-12-10 12:31:33,478 - WARNING - stderr:     self.window.mainloop()
+2024-12-10 12:31:33,478 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\core\window\window_sdl2.py", line 776, in mainloop
+2024-12-10 12:31:33,478 - WARNING - stderr:     if self.dispatch('on_key_down', key,
+2024-12-10 12:31:33,478 - WARNING - stderr:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:31:33,478 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:31:33,479 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:31:33,479 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 12:31:33,480 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\core\window\__init__.py", line 163, in _on_window_key_down
+2024-12-10 12:31:33,480 - WARNING - stderr:     return self.dispatch('on_key_down', keycode, text, modifiers)
+2024-12-10 12:31:33,480 - WARNING - stderr:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:31:33,480 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:31:33,480 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:31:33,481 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 12:31:33,481 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 2984, in keyboard_on_key_down
+2024-12-10 12:31:33,481 - WARNING - stderr:     self._key_down(key)
+2024-12-10 12:31:33,481 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 2849, in _key_down
+2024-12-10 12:31:33,482 - WARNING - stderr:     self.do_backspace()
+2024-12-10 12:31:33,482 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 980, in do_backspace
+2024-12-10 12:31:33,482 - WARNING - stderr:     self._set_line_text(row, new_text)
+2024-12-10 12:31:33,483 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 2156, in _set_line_text
+2024-12-10 12:31:33,484 - WARNING - stderr:     self._lines[line_num] = text
+2024-12-10 12:31:33,484 - WARNING - stderr:     ~~~~~~~~~~~^^^^^^^^^^
+2024-12-10 12:31:33,484 - WARNING - stderr:   File "kivy\\properties.pyx", line 820, in kivy.properties.ObservableList.__setitem__
+2024-12-10 12:31:33,484 - WARNING - stderr:   File "kivy\\properties.pyx", line 806, in kivy.properties.observable_list_dispatch
+2024-12-10 12:31:33,484 - WARNING - stderr:   File "kivy\\properties.pyx", line 625, in kivy.properties.Property.dispatch
+2024-12-10 12:31:33,485 - WARNING - stderr:   File "kivy\\properties.pyx", line 606, in kivy.properties.Property._dispatch
+2024-12-10 12:31:33,485 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:31:33,485 - WARNING - stderr:   File "kivy\\_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+2024-12-10 12:31:33,485 - WARNING - stderr:   File "kivy\\properties.pyx", line 1639, in kivy.properties.AliasProperty.trigger_change
+2024-12-10 12:31:33,486 - WARNING - stderr:   File "kivy\\properties.pyx", line 1646, in kivy.properties.AliasProperty.trigger_change
+2024-12-10 12:31:33,487 - WARNING - stderr:   File "kivy\\properties.pyx", line 1672, in kivy.properties.AliasProperty._dispatch
+2024-12-10 12:31:33,487 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:31:33,487 - WARNING - stderr:   File "kivy\\_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+2024-12-10 12:31:33,487 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos_productos.py", line 200, in filtrar_productos
+2024-12-10 12:31:33,487 - WARNING - stderr:     ruta_imagen = producto[3] if os.path.exists(producto[3]) else self.ImagenPRED
+2024-12-10 12:31:33,488 - WARNING - stderr:                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:31:33,488 - WARNING - stderr: TypeError: _path_exists: path should be string, bytes, os.PathLike or integer, not NoneType
+2024-12-10 12:32:02,584 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:32:02,593 - INFO - GL: NPOT texture support is available
+2024-12-10 12:32:02,602 - INFO - Base: Start application main loop
+2024-12-10 12:32:02,692 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:32:48,469 - INFO - Base: Leaving application in progress...
+2024-12-10 12:32:48,469 - WARNING - stderr: Traceback (most recent call last):
+2024-12-10 12:32:48,469 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\main.py", line 52, in <module>
+2024-12-10 12:32:48,470 - WARNING - stderr:     MainApp().run()
+2024-12-10 12:32:48,470 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\app.py", line 956, in run
+2024-12-10 12:32:48,471 - WARNING - stderr:     runTouchApp()
+2024-12-10 12:32:48,471 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2024-12-10 12:32:48,471 - WARNING - stderr:     EventLoop.mainloop()
+2024-12-10 12:32:48,472 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 341, in mainloop
+2024-12-10 12:32:48,472 - WARNING - stderr:     self.window.mainloop()
+2024-12-10 12:32:48,472 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\core\window\window_sdl2.py", line 786, in mainloop
+2024-12-10 12:32:48,472 - WARNING - stderr:     self.dispatch('on_textinput', text)
+2024-12-10 12:32:48,472 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:32:48,472 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:32:48,473 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 12:32:48,473 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\core\window\__init__.py", line 155, in _on_window_textinput
+2024-12-10 12:32:48,474 - WARNING - stderr:     return self.dispatch('on_textinput', text)
+2024-12-10 12:32:48,474 - WARNING - stderr:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:32:48,474 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:32:48,474 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:32:48,475 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 12:32:48,475 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 3045, in keyboard_on_textinput
+2024-12-10 12:32:48,476 - WARNING - stderr:     self.insert_text(text, False)
+2024-12-10 12:32:48,476 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 792, in insert_text
+2024-12-10 12:32:48,477 - WARNING - stderr:     self._set_line_text(row, new_text)
+2024-12-10 12:32:48,477 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\textinput.py", line 2156, in _set_line_text
+2024-12-10 12:32:48,477 - WARNING - stderr:     self._lines[line_num] = text
+2024-12-10 12:32:48,477 - WARNING - stderr:     ~~~~~~~~~~~^^^^^^^^^^
+2024-12-10 12:32:48,477 - WARNING - stderr:   File "kivy\\properties.pyx", line 820, in kivy.properties.ObservableList.__setitem__
+2024-12-10 12:32:48,477 - WARNING - stderr:   File "kivy\\properties.pyx", line 806, in kivy.properties.observable_list_dispatch
+2024-12-10 12:32:48,478 - WARNING - stderr:   File "kivy\\properties.pyx", line 625, in kivy.properties.Property.dispatch
+2024-12-10 12:32:48,480 - WARNING - stderr:   File "kivy\\properties.pyx", line 606, in kivy.properties.Property._dispatch
+2024-12-10 12:32:48,480 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:32:48,480 - WARNING - stderr:   File "kivy\\_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+2024-12-10 12:32:48,481 - WARNING - stderr:   File "kivy\\properties.pyx", line 1639, in kivy.properties.AliasProperty.trigger_change
+2024-12-10 12:32:48,481 - WARNING - stderr:   File "kivy\\properties.pyx", line 1646, in kivy.properties.AliasProperty.trigger_change
+2024-12-10 12:32:48,482 - WARNING - stderr:   File "kivy\\properties.pyx", line 1672, in kivy.properties.AliasProperty._dispatch
+2024-12-10 12:32:48,482 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:32:48,482 - WARNING - stderr:   File "kivy\\_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+2024-12-10 12:32:48,482 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos_productos.py", line 201, in filtrar_productos
+2024-12-10 12:32:48,483 - WARNING - stderr:     ruta_imagen = producto[3] if os.path.exists(producto[3]) else self.ImagenPRED
+2024-12-10 12:32:48,483 - WARNING - stderr:                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:32:48,483 - WARNING - stderr: TypeError: _path_exists: path should be string, bytes, os.PathLike or integer, not NoneType
+2024-12-10 12:35:31,576 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:35:31,584 - INFO - GL: NPOT texture support is available
+2024-12-10 12:35:31,593 - INFO - Base: Start application main loop
+2024-12-10 12:35:31,676 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:35:47,034 - INFO - Base: Leaving application in progress...
+2024-12-10 12:35:47,035 - INFO - cerrando App
+2024-12-10 12:36:36,890 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:36:36,900 - INFO - GL: NPOT texture support is available
+2024-12-10 12:36:36,908 - INFO - Base: Start application main loop
+2024-12-10 12:36:36,981 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:36:52,861 - INFO - Base: Leaving application in progress...
+2024-12-10 12:36:52,862 - INFO - cerrando App
+2024-12-10 12:41:39,583 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:41:39,593 - INFO - GL: NPOT texture support is available
+2024-12-10 12:41:39,600 - INFO - Base: Start application main loop
+2024-12-10 12:41:39,637 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:41:43,649 - INFO - Base: Leaving application in progress...
+2024-12-10 12:41:43,650 - WARNING - stderr: Traceback (most recent call last):
+2024-12-10 12:41:43,650 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\main.py", line 52, in <module>
+2024-12-10 12:41:43,650 - WARNING - stderr:     MainApp().run()
+2024-12-10 12:41:43,651 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\app.py", line 956, in run
+2024-12-10 12:41:43,651 - WARNING - stderr:     runTouchApp()
+2024-12-10 12:41:43,651 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2024-12-10 12:41:43,651 - WARNING - stderr:     EventLoop.mainloop()
+2024-12-10 12:41:43,652 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2024-12-10 12:41:43,652 - WARNING - stderr:     self.idle()
+2024-12-10 12:41:43,652 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 383, in idle
+2024-12-10 12:41:43,652 - WARNING - stderr:     self.dispatch_input()
+2024-12-10 12:41:43,653 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+2024-12-10 12:41:43,653 - WARNING - stderr:     post_dispatch_input(*pop(0))
+2024-12-10 12:41:43,653 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+2024-12-10 12:41:43,653 - WARNING - stderr:     wid.dispatch('on_touch_up', me)
+2024-12-10 12:41:43,653 - WARNING - stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:41:43,653 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+2024-12-10 12:41:43,663 - WARNING - stderr:     self.dispatch('on_release')
+2024-12-10 12:41:43,663 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:41:43,663 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:41:43,664 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 12:41:43,664 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\spinner.py", line 196, in <lambda>
+2024-12-10 12:41:43,671 - WARNING - stderr:     item.bind(on_release=lambda option: dp.select(option.text))
+2024-12-10 12:41:43,671 - WARNING - stderr:                                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:41:43,672 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\dropdown.py", line 277, in select
+2024-12-10 12:41:43,672 - WARNING - stderr:     self.dispatch('on_select', data)
+2024-12-10 12:41:43,673 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:41:43,673 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:41:43,673 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 12:41:43,673 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\spinner.py", line 213, in _on_dropdown_select
+2024-12-10 12:41:43,674 - WARNING - stderr:     self.text = data
+2024-12-10 12:41:43,674 - WARNING - stderr:     ^^^^^^^^^
+2024-12-10 12:41:43,674 - WARNING - stderr:   File "kivy\\properties.pyx", line 520, in kivy.properties.Property.__set__
+2024-12-10 12:41:43,674 - WARNING - stderr:   File "kivy\\properties.pyx", line 567, in kivy.properties.Property.set
+2024-12-10 12:41:43,674 - WARNING - stderr:   File "kivy\\properties.pyx", line 606, in kivy.properties.Property._dispatch
+2024-12-10 12:41:43,674 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:41:43,675 - WARNING - stderr:   File "kivy\\_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+2024-12-10 12:41:43,675 - WARNING - stderr: TypeError: infoProductosPopup.cargar_productos_por_categoria() takes 1 positional argument but 3 were given
+2024-12-10 12:41:50,714 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:41:50,723 - INFO - GL: NPOT texture support is available
+2024-12-10 12:41:50,732 - INFO - Base: Start application main loop
+2024-12-10 12:41:50,804 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:43:16,269 - INFO - Base: Leaving application in progress...
+2024-12-10 12:43:16,269 - INFO - cerrando App
+2024-12-10 12:43:32,514 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:43:32,523 - INFO - GL: NPOT texture support is available
+2024-12-10 12:43:32,531 - INFO - Base: Start application main loop
+2024-12-10 12:43:32,585 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:43:49,865 - INFO - Base: Leaving application in progress...
+2024-12-10 12:43:49,866 - INFO - cerrando App
+2024-12-10 12:45:11,700 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:45:11,710 - INFO - GL: NPOT texture support is available
+2024-12-10 12:45:11,716 - INFO - Base: Start application main loop
+2024-12-10 12:45:11,800 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:45:16,424 - INFO - Base: Leaving application in progress...
+2024-12-10 12:45:16,425 - WARNING - stderr: Traceback (most recent call last):
+2024-12-10 12:45:16,425 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\main.py", line 52, in <module>
+2024-12-10 12:45:16,425 - WARNING - stderr:     MainApp().run()
+2024-12-10 12:45:16,425 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\app.py", line 956, in run
+2024-12-10 12:45:16,426 - WARNING - stderr:     runTouchApp()
+2024-12-10 12:45:16,426 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2024-12-10 12:45:16,426 - WARNING - stderr:     EventLoop.mainloop()
+2024-12-10 12:45:16,427 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2024-12-10 12:45:16,427 - WARNING - stderr:     self.idle()
+2024-12-10 12:45:16,427 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 383, in idle
+2024-12-10 12:45:16,427 - WARNING - stderr:     self.dispatch_input()
+2024-12-10 12:45:16,427 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+2024-12-10 12:45:16,428 - WARNING - stderr:     post_dispatch_input(*pop(0))
+2024-12-10 12:45:16,428 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+2024-12-10 12:45:16,428 - WARNING - stderr:     wid.dispatch('on_touch_up', me)
+2024-12-10 12:45:16,428 - WARNING - stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:45:16,429 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+2024-12-10 12:45:16,429 - WARNING - stderr:     self.dispatch('on_release')
+2024-12-10 12:45:16,429 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:45:16,429 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:45:16,429 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 12:45:16,430 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\spinner.py", line 196, in <lambda>
+2024-12-10 12:45:16,430 - WARNING - stderr:     item.bind(on_release=lambda option: dp.select(option.text))
+2024-12-10 12:45:16,430 - WARNING - stderr:                                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:45:16,430 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\dropdown.py", line 277, in select
+2024-12-10 12:45:16,431 - WARNING - stderr:     self.dispatch('on_select', data)
+2024-12-10 12:45:16,431 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:45:16,431 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:45:16,431 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 12:45:16,431 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\spinner.py", line 213, in _on_dropdown_select
+2024-12-10 12:45:16,432 - WARNING - stderr:     self.text = data
+2024-12-10 12:45:16,432 - WARNING - stderr:     ^^^^^^^^^
+2024-12-10 12:45:16,432 - WARNING - stderr:   File "kivy\\properties.pyx", line 520, in kivy.properties.Property.__set__
+2024-12-10 12:45:16,433 - WARNING - stderr:   File "kivy\\properties.pyx", line 567, in kivy.properties.Property.set
+2024-12-10 12:45:16,433 - WARNING - stderr:   File "kivy\\properties.pyx", line 606, in kivy.properties.Property._dispatch
+2024-12-10 12:45:16,433 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:45:16,434 - WARNING - stderr:   File "kivy\\_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+2024-12-10 12:45:16,434 - WARNING - stderr: TypeError: infoProductosPopup.cargar_productos_por_categoria() takes 1 positional argument but 3 were given
+2024-12-10 12:45:51,988 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:45:51,997 - INFO - GL: NPOT texture support is available
+2024-12-10 12:45:52,005 - INFO - Base: Start application main loop
+2024-12-10 12:45:52,053 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:47:40,424 - INFO - Base: Leaving application in progress...
+2024-12-10 12:47:40,424 - INFO - cerrando App
+2024-12-10 12:48:57,118 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:48:57,128 - INFO - GL: NPOT texture support is available
+2024-12-10 12:48:57,137 - INFO - Base: Start application main loop
+2024-12-10 12:48:57,211 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:50:20,744 - ERROR - Image: Not found <D:\PROGRAMACION\POS V2\assets\logo_empresa.png>
+2024-12-10 12:50:25,584 - INFO - Base: Leaving application in progress...
+2024-12-10 12:50:25,585 - INFO - cerrando App
+2024-12-10 12:51:16,972 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:51:16,981 - INFO - GL: NPOT texture support is available
+2024-12-10 12:51:16,989 - INFO - Base: Start application main loop
+2024-12-10 12:51:17,087 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:54:10,254 - INFO - Base: Leaving application in progress...
+2024-12-10 12:54:10,254 - WARNING - stderr: Traceback (most recent call last):
+2024-12-10 12:54:10,254 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\main.py", line 52, in <module>
+2024-12-10 12:54:10,254 - WARNING - stderr:     MainApp().run()
+2024-12-10 12:54:10,255 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\app.py", line 956, in run
+2024-12-10 12:54:10,256 - WARNING - stderr:     runTouchApp()
+2024-12-10 12:54:10,256 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2024-12-10 12:54:10,256 - WARNING - stderr:     EventLoop.mainloop()
+2024-12-10 12:54:10,256 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2024-12-10 12:54:10,256 - WARNING - stderr:     self.idle()
+2024-12-10 12:54:10,257 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 383, in idle
+2024-12-10 12:54:10,257 - WARNING - stderr:     self.dispatch_input()
+2024-12-10 12:54:10,257 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+2024-12-10 12:54:10,257 - WARNING - stderr:     post_dispatch_input(*pop(0))
+2024-12-10 12:54:10,257 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+2024-12-10 12:54:10,257 - WARNING - stderr:     wid.dispatch('on_touch_up', me)
+2024-12-10 12:54:10,257 - WARNING - stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:54:10,258 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+2024-12-10 12:54:10,258 - WARNING - stderr:     self.dispatch('on_release')
+2024-12-10 12:54:10,258 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:54:10,258 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:54:10,258 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 12:54:10,259 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos.py", line 105, in pagar_factura
+2024-12-10 12:54:10,277 - WARNING - stderr:     self.facturar_recycle_view.mostrar_popup_factura()
+2024-12-10 12:54:10,277 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos.py", line 466, in mostrar_popup_factura
+2024-12-10 12:54:10,278 - WARNING - stderr:     factura_popup = FacturaPopup(self.data, self)  # Crear una instancia del Popup con los datos actuales
+2024-12-10 12:54:10,278 - WARNING - stderr:                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:54:10,278 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos_Facturar.py", line 40, in __init__
+2024-12-10 12:54:10,298 - WARNING - stderr:     self.no_facturas = self.obtener_ultimo_no_factura()      
+2024-12-10 12:54:10,298 - WARNING - stderr:                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:54:10,298 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos_Facturar.py", line 371, in obtener_ultimo_no_factura
+2024-12-10 12:54:10,300 - WARNING - stderr:     ultimo_no_factura = cursor.execute("SELECT no_factura FROM facturas WHERE id = 1").fetchone()[0] + 1
+2024-12-10 12:54:10,300 - WARNING - stderr:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:54:10,300 - WARNING - stderr: sqlite3.OperationalError: no such column: id
+2024-12-10 12:54:21,425 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:54:21,435 - INFO - GL: NPOT texture support is available
+2024-12-10 12:54:21,443 - INFO - Base: Start application main loop
+2024-12-10 12:54:21,522 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:54:23,934 - INFO - Base: Leaving application in progress...
+2024-12-10 12:54:23,935 - WARNING - stderr: Traceback (most recent call last):
+2024-12-10 12:54:23,935 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\main.py", line 52, in <module>
+2024-12-10 12:54:23,935 - WARNING - stderr:     MainApp().run()
+2024-12-10 12:54:23,936 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\app.py", line 956, in run
+2024-12-10 12:54:23,936 - WARNING - stderr:     runTouchApp()
+2024-12-10 12:54:23,936 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2024-12-10 12:54:23,936 - WARNING - stderr:     EventLoop.mainloop()
+2024-12-10 12:54:23,937 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2024-12-10 12:54:23,937 - WARNING - stderr:     self.idle()
+2024-12-10 12:54:23,937 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 383, in idle
+2024-12-10 12:54:23,937 - WARNING - stderr:     self.dispatch_input()
+2024-12-10 12:54:23,937 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+2024-12-10 12:54:23,937 - WARNING - stderr:     post_dispatch_input(*pop(0))
+2024-12-10 12:54:23,938 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+2024-12-10 12:54:23,938 - WARNING - stderr:     wid.dispatch('on_touch_up', me)
+2024-12-10 12:54:23,938 - WARNING - stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:54:23,938 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+2024-12-10 12:54:23,938 - WARNING - stderr:     self.dispatch('on_release')
+2024-12-10 12:54:23,938 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:54:23,939 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:54:23,939 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 12:54:23,940 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos.py", line 105, in pagar_factura
+2024-12-10 12:54:23,940 - WARNING - stderr:     self.facturar_recycle_view.mostrar_popup_factura()
+2024-12-10 12:54:23,940 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos.py", line 466, in mostrar_popup_factura
+2024-12-10 12:54:23,940 - WARNING - stderr:     factura_popup = FacturaPopup(self.data, self)  # Crear una instancia del Popup con los datos actuales
+2024-12-10 12:54:23,940 - WARNING - stderr:                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:54:23,940 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos_Facturar.py", line 40, in __init__
+2024-12-10 12:54:23,940 - WARNING - stderr:     self.no_facturas = self.obtener_ultimo_no_factura()      
+2024-12-10 12:54:23,941 - WARNING - stderr:                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:54:23,941 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos_Facturar.py", line 371, in obtener_ultimo_no_factura
+2024-12-10 12:54:23,941 - WARNING - stderr:     ultimo_no_factura = cursor.execute("SELECT no_factura FROM facturas WHERE id = 1").fetchone()[0] + 1
+2024-12-10 12:54:23,941 - WARNING - stderr:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:54:23,942 - WARNING - stderr: sqlite3.OperationalError: no such column: id
+2024-12-10 12:56:29,830 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:56:29,840 - INFO - GL: NPOT texture support is available
+2024-12-10 12:56:29,849 - INFO - Base: Start application main loop
+2024-12-10 12:56:29,920 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:56:32,112 - INFO - Base: Leaving application in progress...
+2024-12-10 12:56:32,112 - WARNING - stderr: Traceback (most recent call last):
+2024-12-10 12:56:32,113 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\main.py", line 52, in <module>
+2024-12-10 12:56:32,114 - WARNING - stderr:     MainApp().run()
+2024-12-10 12:56:32,114 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\app.py", line 956, in run
+2024-12-10 12:56:32,115 - WARNING - stderr:     runTouchApp()
+2024-12-10 12:56:32,115 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2024-12-10 12:56:32,115 - WARNING - stderr:     EventLoop.mainloop()
+2024-12-10 12:56:32,115 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2024-12-10 12:56:32,115 - WARNING - stderr:     self.idle()
+2024-12-10 12:56:32,115 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 383, in idle
+2024-12-10 12:56:32,116 - WARNING - stderr:     self.dispatch_input()
+2024-12-10 12:56:32,116 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+2024-12-10 12:56:32,116 - WARNING - stderr:     post_dispatch_input(*pop(0))
+2024-12-10 12:56:32,116 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+2024-12-10 12:56:32,116 - WARNING - stderr:     wid.dispatch('on_touch_up', me)
+2024-12-10 12:56:32,116 - WARNING - stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:56:32,117 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+2024-12-10 12:56:32,117 - WARNING - stderr:     self.dispatch('on_release')
+2024-12-10 12:56:32,117 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 12:56:32,118 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 12:56:32,118 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 12:56:32,119 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos.py", line 105, in pagar_factura
+2024-12-10 12:56:32,119 - WARNING - stderr:     self.facturar_recycle_view.mostrar_popup_factura()
+2024-12-10 12:56:32,119 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos.py", line 466, in mostrar_popup_factura
+2024-12-10 12:56:32,119 - WARNING - stderr:     factura_popup = FacturaPopup(self.data, self)  # Crear una instancia del Popup con los datos actuales
+2024-12-10 12:56:32,119 - WARNING - stderr:                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:56:32,120 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos_Facturar.py", line 40, in __init__
+2024-12-10 12:56:32,120 - WARNING - stderr:     self.no_facturas = self.obtener_ultimo_no_factura()      
+2024-12-10 12:56:32,120 - WARNING - stderr:                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:56:32,121 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\pos\pos_Facturar.py", line 371, in obtener_ultimo_no_factura
+2024-12-10 12:56:32,121 - WARNING - stderr:     ultimo_no_factura = cursor.execute("SELECT no_factura FROM facturas WHERE id = 1").fetchone()[0] + 1
+2024-12-10 12:56:32,121 - WARNING - stderr:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 12:56:32,121 - WARNING - stderr: sqlite3.OperationalError: no such column: id
+2024-12-10 12:57:27,968 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:57:27,979 - INFO - GL: NPOT texture support is available
+2024-12-10 12:57:27,987 - INFO - Base: Start application main loop
+2024-12-10 12:57:28,047 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:58:52,244 - INFO - Base: Leaving application in progress...
+2024-12-10 12:58:52,244 - INFO - cerrando App
+2024-12-10 12:59:20,202 - INFO - Iniciando la aplicación POS.
+2024-12-10 12:59:20,212 - INFO - GL: NPOT texture support is available
+2024-12-10 12:59:20,222 - INFO - Base: Start application main loop
+2024-12-10 12:59:20,317 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 12:59:59,473 - INFO - Base: Leaving application in progress...
+2024-12-10 12:59:59,473 - INFO - cerrando App
+2024-12-10 13:00:37,162 - INFO - Iniciando la aplicación POS.
+2024-12-10 13:00:37,171 - INFO - GL: NPOT texture support is available
+2024-12-10 13:00:37,194 - INFO - Base: Start application main loop
+2024-12-10 13:00:37,249 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 13:02:51,907 - INFO - Base: Leaving application in progress...
+2024-12-10 13:02:51,908 - INFO - cerrando App
+2024-12-10 13:04:17,434 - INFO - Iniciando la aplicación POS.
+2024-12-10 13:04:17,443 - INFO - GL: NPOT texture support is available
+2024-12-10 13:04:17,452 - INFO - Base: Start application main loop
+2024-12-10 13:04:17,548 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 13:04:35,336 - INFO - Base: Leaving application in progress...
+2024-12-10 13:04:35,399 - INFO - cerrando App
+2024-12-10 13:04:38,814 - INFO - Iniciando la aplicación POS.
+2024-12-10 13:04:38,824 - INFO - GL: NPOT texture support is available
+2024-12-10 13:04:38,831 - INFO - Base: Start application main loop
+2024-12-10 13:04:38,928 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 13:05:03,826 - INFO - Base: Leaving application in progress...
+2024-12-10 13:05:03,826 - INFO - cerrando App
+2024-12-10 13:05:12,176 - INFO - Iniciando la aplicación POS.
+2024-12-10 13:05:12,185 - INFO - GL: NPOT texture support is available
+2024-12-10 13:05:12,195 - INFO - Base: Start application main loop
+2024-12-10 13:05:12,284 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 13:05:20,918 - ERROR - Image: Not found <D:\PROGRAMACION\POS V2\assets\logo_empresa.png>
+2024-12-10 13:06:56,033 - INFO - Base: Leaving application in progress...
+2024-12-10 13:06:56,033 - INFO - cerrando App
+2024-12-10 13:06:57,875 - INFO - Iniciando la aplicación POS.
+2024-12-10 13:06:57,885 - INFO - GL: NPOT texture support is available
+2024-12-10 13:06:57,893 - INFO - Base: Start application main loop
+2024-12-10 13:06:57,976 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 13:07:01,583 - ERROR - Image: Not found <D:\PROGRAMACION\POS V2\assets\logo_empresa.png>
+2024-12-10 13:07:05,446 - ERROR - Image: Not found <D:\PROGRAMACION\POS V2\assets\logo_empresa.png>
+2024-12-10 13:07:46,711 - INFO - Base: Leaving application in progress...
+2024-12-10 13:07:46,711 - INFO - cerrando App
+2024-12-10 13:11:26,809 - INFO - Iniciando la aplicación POS.
+2024-12-10 13:11:26,819 - INFO - GL: NPOT texture support is available
+2024-12-10 13:11:26,828 - INFO - Base: Start application main loop
+2024-12-10 13:11:26,921 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 13:11:41,899 - INFO - Base: Leaving application in progress...
+2024-12-10 13:11:41,900 - INFO - cerrando App
+2024-12-10 13:12:36,313 - INFO - Iniciando la aplicación POS.
+2024-12-10 13:12:36,323 - INFO - GL: NPOT texture support is available
+2024-12-10 13:12:36,330 - INFO - Base: Start application main loop
+2024-12-10 13:12:36,390 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 13:12:40,586 - ERROR - Image: Not found <D:\PROGRAMACION\POS V2\assets\logo_empresa.png>
+2024-12-10 13:13:33,154 - INFO - Iniciando la aplicación POS.
+2024-12-10 13:13:33,164 - INFO - GL: NPOT texture support is available
+2024-12-10 13:13:33,172 - INFO - Base: Start application main loop
+2024-12-10 13:13:33,242 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 13:14:03,253 - INFO - Iniciando la aplicación POS.
+2024-12-10 13:14:03,262 - INFO - GL: NPOT texture support is available
+2024-12-10 13:14:03,271 - INFO - Base: Start application main loop
+2024-12-10 13:14:03,360 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 13:14:11,457 - INFO - Base: Leaving application in progress...
+2024-12-10 13:14:11,458 - INFO - cerrando App
+2024-12-10 13:14:14,897 - INFO - Iniciando la aplicación POS.
+2024-12-10 13:14:14,907 - INFO - GL: NPOT texture support is available
+2024-12-10 13:14:14,916 - INFO - Base: Start application main loop
+2024-12-10 13:14:14,989 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 13:15:04,285 - INFO - Base: Leaving application in progress...
+2024-12-10 13:15:04,286 - INFO - cerrando App
+2024-12-10 13:15:11,869 - INFO - Iniciando la aplicación POS.
+2024-12-10 13:15:11,879 - INFO - GL: NPOT texture support is available
+2024-12-10 13:15:11,887 - INFO - Base: Start application main loop
+2024-12-10 13:15:11,977 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 13:15:21,661 - ERROR - Image: Not found <D:\PROGRAMACION\POS V2\assets\logo_empresa.png>
+2024-12-10 13:17:05,452 - INFO - Base: Leaving application in progress...
+2024-12-10 13:17:05,452 - INFO - cerrando App
+2024-12-10 13:17:20,014 - INFO - Iniciando la aplicación POS.
+2024-12-10 13:17:20,023 - INFO - GL: NPOT texture support is available
+2024-12-10 13:17:20,030 - INFO - Base: Start application main loop
+2024-12-10 13:17:20,108 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 13:17:49,138 - INFO - Base: Leaving application in progress...
+2024-12-10 13:17:49,139 - INFO - cerrando App
+2024-12-10 13:20:34,805 - INFO - Iniciando la aplicación POS.
+2024-12-10 13:20:34,814 - INFO - GL: NPOT texture support is available
+2024-12-10 13:20:34,822 - INFO - Base: Start application main loop
+2024-12-10 13:20:34,897 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 13:36:00,071 - INFO - Iniciando la aplicación POS.
+2024-12-10 13:36:00,081 - INFO - GL: NPOT texture support is available
+2024-12-10 13:36:00,089 - INFO - Base: Start application main loop
+2024-12-10 13:36:00,122 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 13:36:09,865 - INFO - Base: Leaving application in progress...
+2024-12-10 13:36:09,866 - INFO - cerrando App
+2024-12-10 13:37:06,122 - INFO - Iniciando la aplicación POS.
+2024-12-10 13:37:06,132 - INFO - GL: NPOT texture support is available
+2024-12-10 13:37:06,141 - INFO - Base: Start application main loop
+2024-12-10 13:37:06,214 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 13:37:15,271 - INFO - Base: Leaving application in progress...
+2024-12-10 13:37:15,272 - INFO - cerrando App
+2024-12-10 13:39:40,976 - INFO - Iniciando la aplicación POS.
+2024-12-10 13:39:40,986 - INFO - GL: NPOT texture support is available
+2024-12-10 13:39:40,994 - INFO - Base: Start application main loop
+2024-12-10 13:39:41,039 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 13:39:49,821 - ERROR - Image: Not found <D:\PROGRAMACION\POS V2\assets\logo_empresa.png>
+2024-12-10 13:40:17,519 - INFO - Base: Leaving application in progress...
+2024-12-10 13:40:17,520 - INFO - cerrando App
+2024-12-10 13:45:01,510 - INFO - Iniciando la aplicación POS.
+2024-12-10 13:45:01,520 - INFO - GL: NPOT texture support is available
+2024-12-10 13:45:01,529 - INFO - Base: Start application main loop
+2024-12-10 13:45:01,600 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 13:45:05,210 - INFO - Base: Leaving application in progress...
+2024-12-10 13:45:05,211 - WARNING - stderr: Traceback (most recent call last):
+2024-12-10 13:45:05,211 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\main.py", line 52, in <module>
+2024-12-10 13:45:05,211 - WARNING - stderr:     MainApp().run()
+2024-12-10 13:45:05,212 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\app.py", line 956, in run
+2024-12-10 13:45:05,212 - WARNING - stderr:     runTouchApp()
+2024-12-10 13:45:05,212 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2024-12-10 13:45:05,212 - WARNING - stderr:     EventLoop.mainloop()
+2024-12-10 13:45:05,213 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2024-12-10 13:45:05,213 - WARNING - stderr:     self.idle()
+2024-12-10 13:45:05,213 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 383, in idle
+2024-12-10 13:45:05,214 - WARNING - stderr:     self.dispatch_input()
+2024-12-10 13:45:05,214 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+2024-12-10 13:45:05,214 - WARNING - stderr:     post_dispatch_input(*pop(0))
+2024-12-10 13:45:05,214 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\base.py", line 263, in post_dispatch_input
+2024-12-10 13:45:05,214 - WARNING - stderr:     listener.dispatch('on_motion', etype, me)
+2024-12-10 13:45:05,214 - WARNING - stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2024-12-10 13:45:05,215 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\core\window\__init__.py", line 1709, in on_motion
+2024-12-10 13:45:05,216 - WARNING - stderr:     self.dispatch('on_touch_down', me)
+2024-12-10 13:45:05,216 - WARNING - stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2024-12-10 13:45:05,216 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\core\window\__init__.py", line 1726, in on_touch_down
+2024-12-10 13:45:05,217 - WARNING - stderr:     if w.dispatch('on_touch_down', touch):
+2024-12-10 13:45:05,217 - WARNING - stderr:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 13:45:05,217 - WARNING - stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2024-12-10 13:45:05,217 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\screenmanager.py", line 1210, in on_touch_down
+2024-12-10 13:45:05,218 - WARNING - stderr:     return super(ScreenManager, self).on_touch_down(touch)
+2024-12-10 13:45:05,218 - WARNING - stderr:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 13:45:05,218 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\widget.py", line 589, in on_touch_down
+2024-12-10 13:45:05,219 - WARNING - stderr:     if child.dispatch('on_touch_down', touch):
+2024-12-10 13:45:05,219 - WARNING - stderr:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 13:45:05,219 - WARNING - stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2024-12-10 13:45:05,219 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\relativelayout.py", line 306, in on_touch_down
+2024-12-10 13:45:05,219 - WARNING - stderr:     ret = super(RelativeLayout, self).on_touch_down(touch)
+2024-12-10 13:45:05,220 - WARNING - stderr:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 13:45:05,220 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\widget.py", line 589, in on_touch_down
+2024-12-10 13:45:05,220 - WARNING - stderr:     if child.dispatch('on_touch_down', touch):
+2024-12-10 13:45:05,220 - WARNING - stderr:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 13:45:05,221 - WARNING - stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2024-12-10 13:45:05,221 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\widget.py", line 589, in on_touch_down
+2024-12-10 13:45:05,222 - WARNING - stderr:     if child.dispatch('on_touch_down', touch):
+2024-12-10 13:45:05,222 - WARNING - stderr:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 13:45:05,222 - WARNING - stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2024-12-10 13:45:05,222 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\widget.py", line 589, in on_touch_down
+2024-12-10 13:45:05,223 - WARNING - stderr:     if child.dispatch('on_touch_down', touch):
+2024-12-10 13:45:05,223 - WARNING - stderr:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 13:45:05,223 - WARNING - stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2024-12-10 13:45:05,223 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\widget.py", line 589, in on_touch_down
+2024-12-10 13:45:05,224 - WARNING - stderr:     if child.dispatch('on_touch_down', touch):
+2024-12-10 13:45:05,224 - WARNING - stderr:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-10 13:45:05,224 - WARNING - stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2024-12-10 13:45:05,224 - WARNING - stderr:   File "C:\Users\xSkL17x\AppData\Local\Programs\Python\Python312\Lib\site-packages\kivy\uix\behaviors\button.py", line 151, in on_touch_down
+2024-12-10 13:45:05,225 - WARNING - stderr:     self.dispatch('on_press')
+2024-12-10 13:45:05,225 - WARNING - stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2024-12-10 13:45:05,225 - WARNING - stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2024-12-10 13:45:05,225 - WARNING - stderr:   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+2024-12-10 13:45:05,225 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\administrar\administrar.py", line 185, in botonlateral_informes
+2024-12-10 13:45:05,226 - WARNING - stderr:     Informes(self)
+2024-12-10 13:45:05,226 - WARNING - stderr:   File "D:\PROGRAMACION\POS V2\administrar\administrarinformes.py", line 29, in __init__
+2024-12-10 13:45:05,227 - WARNING - stderr:     self.setup_layout()
+2024-12-10 13:45:05,227 - WARNING - stderr:     ^^^^^^^^^^^^^^^^^
+2024-12-10 13:45:05,227 - WARNING - stderr: AttributeError: 'Informes' object has no attribute 'setup_layout'
+2024-12-10 13:45:45,568 - INFO - Iniciando la aplicación POS.
+2024-12-10 13:45:45,577 - INFO - GL: NPOT texture support is available
+2024-12-10 13:45:45,585 - INFO - Base: Start application main loop
+2024-12-10 13:45:45,645 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 13:45:57,751 - INFO - Base: Leaving application in progress...
+2024-12-10 13:45:57,752 - INFO - cerrando App
+2024-12-10 13:46:20,983 - INFO - Iniciando la aplicación POS.
+2024-12-10 13:46:20,993 - INFO - GL: NPOT texture support is available
+2024-12-10 13:46:21,000 - INFO - Base: Start application main loop
+2024-12-10 13:46:21,083 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 13:46:30,240 - INFO - Base: Leaving application in progress...
+2024-12-10 13:46:30,241 - INFO - cerrando App
+2024-12-10 14:07:44,043 - INFO - Iniciando la aplicación POS.
+2024-12-10 14:07:44,053 - INFO - GL: NPOT texture support is available
+2024-12-10 14:07:44,062 - INFO - Base: Start application main loop
+2024-12-10 14:07:44,092 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 14:08:17,677 - INFO - Iniciando la aplicación POS.
+2024-12-10 14:08:17,687 - INFO - GL: NPOT texture support is available
+2024-12-10 14:08:17,696 - INFO - Base: Start application main loop
+2024-12-10 14:08:17,761 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 14:10:49,025 - INFO - Iniciando la aplicación POS.
+2024-12-10 14:10:49,036 - INFO - GL: NPOT texture support is available
+2024-12-10 14:10:49,044 - INFO - Base: Start application main loop
+2024-12-10 14:10:49,103 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 14:18:28,933 - INFO - Iniciando la aplicación POS.
+2024-12-10 14:18:28,942 - INFO - GL: NPOT texture support is available
+2024-12-10 14:18:28,949 - INFO - Base: Start application main loop
+2024-12-10 14:18:28,994 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 14:18:34,203 - INFO - Base: Leaving application in progress...
+2024-12-10 14:18:34,203 - INFO - cerrando App
+2024-12-10 14:18:49,330 - INFO - Iniciando la aplicación POS.
+2024-12-10 14:18:49,338 - INFO - GL: NPOT texture support is available
+2024-12-10 14:18:49,346 - INFO - Base: Start application main loop
+2024-12-10 14:18:49,432 - INFO - Pantalla de Principal de POS añadida al ScreenManager.
+2024-12-10 14:19:01,765 - INFO - Base: Leaving application in progress...
+2024-12-10 14:19:01,765 - INFO - cerrando App
