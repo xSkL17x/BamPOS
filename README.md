@@ -1,5 +1,7 @@
-﻿Punto de Ventas
- 
+﻿Punto de Ventas  con sistema de facturacion
+
+
+ <img width="896" height="632" alt="image" src="https://github.com/user-attachments/assets/b390e6b5-6b99-4c67-bf33-959575f12b2e" />
  
  
  <img width="2153" height="1346" alt="Captura de pantalla 2026-08-01 003842" src="https://github.com/user-attachments/assets/2485b09a-49dd-43a3-8303-baf309490b2e" />
